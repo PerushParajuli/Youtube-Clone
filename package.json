@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "A youtube clone, named YVP. Strictly backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "Perush",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
