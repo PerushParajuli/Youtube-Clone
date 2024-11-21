@@ -1,2 +1,3 @@
-import mongoose from 'mongoose';
+import connectDb from "./db/db.js";
 
+connectDb();
